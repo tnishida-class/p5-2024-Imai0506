@@ -19,7 +19,7 @@ function setup() {
 
   // 白い星を描く
   fill(255); // 白
-  drawStar(height / 3.5, height / 2, 20, 5); // 星を描画
+  drawStar(height / 3.5, height / 2, 20, 5); 
 }
 
 // 星を描く関数
