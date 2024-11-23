@@ -1,4 +1,4 @@
-// キューバ国旗
+// キューバ国旗　最終課題
 function setup() {
   createCanvas(300, 150);
   noStroke();
