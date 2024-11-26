@@ -33,6 +33,7 @@ function draw() {
   drawStar(flagX + 150 / 3.5, flagY + 150 / 2, 20, 5); 
 }
 
+
 function drawStar(cx, cy, r, n) {
   beginShape();
   for (let i = 0; i < n * 2; i++) {
