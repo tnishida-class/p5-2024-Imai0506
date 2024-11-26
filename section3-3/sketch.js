@@ -4,12 +4,12 @@ let x, y;
 function setup(){
   createCanvas(windowWidth, windowHeight);
   x = width / 2;
-  y = height / 2;
+  y = 99 * height / 100;
 }
 
 function draw(){
   background(160, 192, 255);
-  ellipse(x, y, 50);
+  ellipse(x, y, );
   if(keyIsDown(LEFT_ARROW)){ x -= 5; }
   if(keyIsDown(RIGHT_ARROW)){ x += 5; }
   if(keyIsDown(UP_ARROW)){ y -= 5; }
