@@ -3,12 +3,12 @@ let flagX = 0;
 let flagY = 0; 
 
 function setup() { 
-  createCanvas(400, 300); 
+  createCanvas(windowWidth, windowHeight); 
   noStroke();
 }
 
 function draw() {
-  background(220); 
+  background(154, 205, 50); 
   
   flagX = mouseX - 150; 
   flagY = mouseY - 75;
@@ -43,4 +43,8 @@ function drawStar(cx, cy, r, n) {
     vertex(x, y);
   }
   endShape(CLOSE);
+}
+
+function windowResized(){
+  resizeCanvas(windowWidth, windowHeight)
 }
